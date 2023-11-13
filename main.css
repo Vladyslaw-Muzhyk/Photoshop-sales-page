@@ -1,0 +1,575 @@
+* {
+    background-color:#282c32 ;
+    font-size: calc(1.0687499999999999 * var(--editor-font-size, 1rem));;
+}
+ body {
+   
+    font-weight: 700;
+    padding: 3.75em;
+    padding: var(4.75) var(3.75);
+    border-radius:none;
+    font-size:calc(1.0687499999999999 * var(--editor-font-size, 1rem));
+    accent-color: #003b80ff;
+    border: #004699ff;
+    margin: 1.125em;
+    
+    
+    
+ }
+ @font-face {
+    font-family: "Montserrat";
+    src: url('file:///C:/Users/vladm/OneDrive/Pulpit/3333/Fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+  
+ .title1 {
+    background: linear-gradient(135deg, rgb(93, 164, 245) 10%, rgb(220, 99, 253) 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    position: relative;
+    display: inline-block;
+    font-size: 1.7em;
+    line-height: 1.25;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0.9em;
+    margin-left: 0.84em;
+    
+    
+}
+.title1::before {
+    
+    
+    width: 100%;
+    height: 100%;
+    
+    
+    
+}
+.slade1 {
+    border-width: 0;
+    box-sizing: border-box;
+    padding-left:  7.3em;
+    
+    
+    
+
+}
+
+.description1 {
+    color: rgb(223, 222, 222);
+    font-family: "Montserrat";
+    font-weight: 400;
+    margin-top: -1.7em;
+    padding-left: 4em;
+    display: flex;
+    line-height: 1.500em;
+    
+    width: 45%; /* Встановлення ширини для .description1 */
+    z-index: 2; /* Підняття .description1 над іншими елементами */
+} 
+
+  
+.button1 {
+    background: linear-gradient(135deg, rgb(93, 164, 245) 10%, rgb(220, 99, 253) 90%);
+    color: rgb(0, 0, 0);
+    padding: 0.8em 1em;
+    border: none;
+    border-radius: 1em;
+    font-weight: bold;
+    outline: rgb(220, 99, 253);
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: rgba(0, 0, 0, 0.25);
+    margin-left: 5em;
+    margin-top: -0.3em;
+    position: relative;
+    z-index: 4; /* Додали z-index, щоб кнопка була вище */
+    filter: drop-shadow(-0.33rem -0.33rem 0.35rem #3e4348) drop-shadow(0.43rem 0.43rem 0.2rem #171717);
+    
+}
+
+.image1 {
+    padding-left: 34.95em;
+    margin-top: -27.48em;
+   
+    
+    
+}
+
+.title2 {
+    background: linear-gradient(135deg, #5da4f5 20%, rgb(220, 99, 253) 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    position: relative;
+    display: inline-block;
+    font-size: 1.6em;
+    line-height: 1.25;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0.9em;
+    margin-left: 2.73em;
+    
+}
+
+.description2 {
+    color: rgb(223, 222, 222);
+    font-family: "Montserrat";
+    font-weight: 400;
+    margin-top: -2em;
+    padding-left: 11.5em;
+    display: flex;
+    line-height: 1.500em;
+   
+    width: 42%; /* Встановлення ширини для .description1 */
+    z-index: 2; /* Підняття .description1 над іншими елементами */
+
+}
+
+.image2 {
+    padding-left: 42.89em;
+    margin-top: -17.22em;
+    
+}
+
+.pidslade {
+    border-width: 0;
+    box-sizing: border-box;
+    padding-left:  7.75em;
+    
+}
+    
+
+.slade2 {
+    filter: drop-shadow(-0.33rem -0.33rem 0.35rem #3e4348) drop-shadow(0.33rem 0.33rem 0.33rem #1b1c21);
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin-top: 0.9em;
+    padding-left: 4.7em;
+    padding-bottom: 0.6em;
+
+}
+.title3 {
+    background: linear-gradient(135deg, #5da4f5 20%, rgb(220, 99, 253) 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    position: relative;
+    display: inline-block;
+    font-size: 1.54em;
+    line-height: 1.25;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0.7em;
+    padding-left: 0.95em;
+
+}
+.description3 {
+    color: rgb(223, 222, 222);
+    font-family: "Montserrat";
+    font-weight: 400;
+    margin-top: -2em;
+    margin-left: 3.7em;
+    margin-right: 2em;
+    
+    display: flex;
+    line-height: 1.500em;
+   
+    width: 90%; /* Встановлення ширини для .description1 */
+    z-index: 2 /* Підняття .description1 над іншими елементами */
+}
+.slade3 {
+    margin-top: 24.6em;
+    filter: drop-shadow(-0.38rem -0.33rem 0.35rem #3e4348) drop-shadow(0.33rem 0.33rem 0.33rem #1b1c21);
+    margin-left: 7.9em;
+    width: 78%;
+    
+
+}
+.title4 {
+    background: linear-gradient(135deg, #5da4f5 20%, rgb(220, 99, 253) 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    position: relative;
+    display: inline-block;
+    font-size: 1.56em;
+    line-height: 1.25;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0.7em;
+    padding-left: 0.94em;
+
+}
+.description4 {
+    color: rgb(223, 222, 222);
+    font-family: "Montserrat";
+    font-weight: 400;
+    margin-top: -2.5em;
+    margin-left: 3.7em;
+    margin-right: 2em;
+    
+    display: flex;
+    line-height: 1.500em;
+   
+    width: 90%; /* Встановлення ширини для .description1 */
+    z-index: 2 /* Підняття .description1 над іншими елементами */
+}
+.slade4 {
+    margin-top: 3.6em;
+    filter: drop-shadow(-0.38rem -0.33rem 0.35rem #3e4348) drop-shadow(0.33rem 0.33rem 0.33rem #1b1c21);
+    margin-left: 7.9em;
+    width: 78%;
+    
+
+}
+.title5 {
+    background: linear-gradient(135deg, #5da4f5 20%, rgb(220, 99, 253) 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    position: relative;
+    display: inline-block;
+    font-size: 1.53em;
+    line-height: 1.25;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 1em;
+    padding-left: 2.98em;
+    z-index: 5;
+    
+   
+
+}
+.description5{
+    color: rgb(223, 222, 222);
+    font-family: "Montserrat";
+    font-weight: 500;
+    margin-top: -2.8em;
+    padding-left: 11.5em;
+    margin-right: 2em;
+    position: relative;
+    display: flex;
+    line-height: 1.500em;
+   
+    width: 80%; /* Встановлення ширини для .description1 */
+    z-index: 2 /* Підняття .description1 над іншими елементами */
+}
+.photo1{
+    display: block;
+    width: 15em;
+    height:9em;
+    margin-left: 11.3em;
+    position: relative;
+    
+       
+}
+.coltitle1 {
+    background: linear-gradient(135deg, #5da4f5 20%, rgb(220, 99, 253) 90%);    -webkit-background-clip: text;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    position:relative;
+    display: inline-block;
+    font-size: 1.13em;
+    line-height: 1.25;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 4.77em;
+    margin-top: 0.5em;
+
+    
+}
+
+
+.coldescription1 {
+    display: block;
+    color: rgb(223, 222, 222);
+    font-family: "Montserrat";
+    font-weight: 500;
+    margin-top: -3em;
+    margin-left: 11.5em;
+    margin-right: 2em;
+    position: relative;
+    display: flex;
+    line-height: 1.500em;
+   z-index: 2;
+    width: 20%; /* Встановлення ширини для .description1 */
+     /* Підняття .description1 над іншими елементами */ 
+}
+.photo2{
+    display: block;
+    width: 15em;
+    height:9em;
+    margin-left: -7.8em;
+    position: relative;
+    top: -22.75em;
+    background-size:cover ;
+    background-position: center center;
+    z-index: 3;
+   
+
+    
+    
+       
+}
+.coltitle2 {
+    background: linear-gradient(135deg, #5da4f5 20%, rgb(220, 99, 253) 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    display: inline-block;
+    -webkit-text-fill-color: transparent; 
+    position:relative;
+    font-size: 1.13em;
+    line-height: 1.25;
+    font-family: 'Times New Roman', Times, serif;
+    top: -10.2em;
+    left: -1.8em;
+    
+}
+
+.coldescription2 {
+    display: block;
+    color: rgb(223, 222, 222);
+    font-family: "Montserrat";
+    font-weight: 500;
+    position: relative;
+    display: flex;
+    line-height: 1.500em;
+    top: -27.5em;
+    left: -3.4em;
+    z-index: 2 /* Підняття .description1 над іншими елементами */ 
+}
+.colum2 {
+        width: 100%; /* Заповнює весь доступний простір */
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Горизонтальне вирівнювання по центру */
+        
+}
+
+.photo3{
+    display: block;
+    width: 15em;
+    height:9em;
+    margin-left: 25.4em;
+    position: relative;
+    top: -50.3em;
+    background-size:cover ;
+    background-position: center center;
+    z-index: 5;
+    
+    
+    
+       
+}
+.coltitle3 {
+    background: linear-gradient(135deg, #5da4f5 20%, rgb(220, 99, 253) 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    position:relative;
+    font-size: 1.13em;
+    display: block;
+    line-height: 1.25;
+    font-family: 'Times New Roman', Times, serif;
+    top: -21.64em;
+    left: 4.73em;
+    right: 0;
+    
+}
+
+.coldescription3 {
+    display: block;
+    color: rgb(223, 222, 222);
+    font-family: "Montserrat";
+    font-weight: 500;
+    position: relative;
+    display: flex;
+    line-height: 1.500em;
+    top: -54.9em;
+    left: 12.3em;
+    
+    z-index: 2 /* Підняття .description1 над іншими елементами */ 
+}
+.colum3 {
+    width: 100%; /* Заповнює весь доступний простір */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Горизонтальне вирівнювання по центру */
+    
+    
+    
+
+}
+.slade5 {
+    
+    filter: drop-shadow(-0.3rem -0.8rem 0.3rem #3e4348);
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin-top: 1.7em;
+    padding-left: 4.8em;   
+    
+    
+}
+.shadow {
+    
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding-top: 29.5em;
+    filter: drop-shadow(0rem 0.8rem 0.33rem #1b1c21);
+}
+
+
+
+.title6 {
+    background: linear-gradient(135deg, #5da4f5 20%, rgb(220, 99, 253) 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    position: relative;
+    display: inline-block;
+    font-size: 1.53em;
+    line-height: 1.25;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0.7em;
+    padding-left: 0.96em;
+
+}
+.description6 {
+    color: rgb(223, 222, 222);
+    font-family: "Montserrat";
+    font-weight: 400;
+    margin-top: 0em;
+    margin-left: 3.7em;
+    margin-right: 2em;
+    
+    display: flex;
+    line-height: 1.500em;
+   
+    width: 90%; /* Встановлення ширини для .description1 */
+    z-index: 2 /* Підняття .description1 над іншими елементами */
+}
+.slade6 {
+    margin-top: 46.5em;
+    filter: drop-shadow(-0.38rem -0.33rem 0.35rem #3e4348) drop-shadow(0.33rem 0.33rem 0.33rem #1b1c21);
+    margin-left: 7.9em;
+    width: 78%;
+}
+.title7 {
+    background: linear-gradient(135deg, #5da4f5 20%, rgb(220, 99, 253) 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    position: relative;
+    display: inline-block;
+    font-size: 1.53em;
+    line-height: 1.25;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 1.2em;
+    margin-left: 8.72em;
+    
+}
+
+.description7 {
+    color: rgb(223, 222, 222);
+    font-family: "Montserrat";
+    font-weight: 400;
+    margin-top: 0em;
+    padding-left: 33.8em;
+    display: flex;
+    line-height: 1.500em;
+   
+    width: 42%; /* Встановлення ширини для .description1 */
+    z-index: 2; /* Підняття .description1 над іншими елементами */
+
+}
+
+.photo4 {
+    padding-left: 10.89em;
+    margin-top: -16.29em;
+    
+}
+.slade7 {
+    filter: drop-shadow(-0.33rem -0.33rem 0.35rem #3e4348) drop-shadow(0.33rem 0.33rem 0.33rem #1b1c21);
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin-top: 1.7em;
+    padding-left: 2.9em;
+    padding-bottom: 0.6em;
+    
+}
+.title8 {
+    background: linear-gradient(135deg, #5da4f5 20%, rgb(220, 99, 253) 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    position: relative;
+    display: inline-block;
+    font-size: 1.53em;
+    line-height: 1.25;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0.6em;
+    padding-left: 0.97em;
+
+}
+.description8 {
+    color: rgb(223, 222, 222);
+    font-family: "Montserrat";
+    font-weight: 400;
+    margin-top: 0.7em;
+    margin-left: 3.7em;
+    margin-right: 2em;
+    
+    display: flex;
+    line-height: 1.500em;
+   
+    width: 90%; /* Встановлення ширини для .description1 */
+    z-index: 2 /* Підняття .description1 над іншими елементами */
+}
+.slade8 {
+    margin-top: 25.4em;
+    filter: drop-shadow(-0.38rem -0.33rem 0.35rem #3e4348) drop-shadow(0.33rem 0.33rem 0.33rem #1b1c21);
+    margin-left: 7.9em;
+    width: 78%;
+}
+.button2 {
+    background: linear-gradient(135deg, rgb(93, 164, 245) 10%, rgb(220, 99, 253) 90%);
+    color: rgb(0, 0, 0);
+    padding: 0.8em 1em;
+    border: none;
+    font-size: 90%;
+    
+    border-radius: 1em;
+    font-weight: bold;
+    outline: rgb(220, 99, 253);
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: rgba(0, 0, 0, 0.25);
+    margin-left: 21.8em;
+    margin-top: 5em;
+    position: relative;
+    z-index: 4; /* Додали z-index, щоб кнопка була вище */
+    filter: drop-shadow(-0.33rem -0.33rem 0.35rem #3e4348) drop-shadow(0.43rem 0.43rem 0.2rem #171717);
+    
+}
+
+.slade9 {
+    position:relative;
+    background: url(photo5.png);
+    right: 0;
+    background-size:cover ;
+    height: 210px;
+    width: 1%;
+    margin-top: 1.7em;
+    filter: drop-shadow(0rem -0.33rem 0.35rem #3e4348) drop-shadow(0.33rem 0.33rem 0.33rem #1b1c21);
+    margin-bottom: -20px;
+    left: -7em;
+    
+    
+    
+    
+    
+}
